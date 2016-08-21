@@ -1,0 +1,61 @@
+! Fuentes:
+!xterm*faceName: Dejavu Sans Mono Book
+xterm*faceName: Ohsnap
+xterm*faceSize:	10
+URxvt*font:     xft:Terminus:size=8
+
+! Configuración local
+XTerm*locale: 	true
+
+! Shell entrada por defecto...
+XTerm*loginshell: true
+
+! Enable bell urgent
+xterm*bellIsUrgent: true
+
+! scrollback...
+XTerm* savelines: 10000
+
+! Doble click selección de URL...
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! Geometra de ventana...
+xterm*geometry: 90x20+0+0
+
+
+! special
+xterm*foreground:   #ffffff
+xterm*background:   #000000
+xterm*cursorColor:  #ffffff
+
+! black
+xterm*color0:       #181818
+xterm*color8:       #202020
+
+! red
+xterm*color1:       #6b6b6b
+xterm*color9:       #464646
+
+! green
+xterm*color2:       #c4c4c4
+xterm*color10:      #f8f8f8
+
+! yellow
+xterm*color3:       #b3b3b3
+xterm*color11:      #eeeeee
+
+! blue
+xterm*color4:       #999999
+xterm*color12:      #7c7c7c
+
+! magenta
+xterm*color5:       #717171
+xterm*color13:      #adadad
+
+! cyan
+xterm*color6:       #8a8a8a
+xterm*color14:      #c0c0c0
+
+! white
+xterm*color7:       #b5cabb
+xterm*color15:      #fdfdfd
