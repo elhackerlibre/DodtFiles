@@ -20,41 +20,41 @@ word_chars 		= -A-Za-z0-9,./?%&#:_=+@~
 [colors]
 
 # special
-foreground      = #ffffff
-foreground_bold = #ffffff
-cursor          = #ffffff
-background      = #000000
+foreground      = #4a4b4c
+foreground_bold = #bfbfbf
+cursor          = #999999
+background      = #0b0b0b
 
 # black
-color0  = #181818
-color8  = #202020
+color0  = #ababab
+color8  = #303132
 
 # red
-color1  = #6b6b6b
-color9  = #464646
+color1  = #909093
+color9  = #353535
 
 # green
-color2  = #c4c4c4
-color10 = #f8f8f8
+color2  = #7e7e7e
+color10 = #3a3b3c
 
 # yellow
-color3  = #b3b3b3
-color11 = #eeeeee
+color3  = #777777
+color11 = #4a4b4c
 
 # blue
-color4  = #999999
-color12 = #7c7c7c
+color4  = #6a686c
+color12 = #535455
 
 # magenta
-color5  = #717171
-color13 = #adadad
+color5  = #555457
+color13 = #696969
 
 # cyan
-color6  = #8a8a8a
-color14 = #c0c0c0
+color6  = #4a4b4c
+color14 = #7c7c7e
 
 # white
-color7  = #fdfdfd
-color15 = #99ac9e
+color7  = #292a2b
+color15 = #999999
 
 # vim: ft=dosini cms=#%s
