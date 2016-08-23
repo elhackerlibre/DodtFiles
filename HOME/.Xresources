@@ -24,38 +24,38 @@ xterm*geometry: 90x20+0+0
 
 
 ! special
-xterm*foreground:   #ffffff
-xterm*background:   #000000
-xterm*cursorColor:  #ffffff
+xterm*foreground:   #4a4b4c
+xterm*background:   #0b0b0b
+xterm*cursorColor:  #888888
 
 ! black
-xterm*color0:       #181818
-xterm*color8:       #202020
+xterm*color0:       #ababab
+xterm*color8:       #303132
 
 ! red
-xterm*color1:       #6b6b6b
-xterm*color9:       #464646
+xterm*color1:       #909093
+xterm*color9:       #353535
 
 ! green
-xterm*color2:       #c4c4c4
-xterm*color10:      #f8f8f8
+xterm*color2:       #7e7e7e
+xterm*color10:      #3a3b3c
 
 ! yellow
-xterm*color3:       #b3b3b3
-xterm*color11:      #eeeeee
+xterm*color3:       #777777
+xterm*color11:      #4a4b4c
 
 ! blue
-xterm*color4:       #999999
-xterm*color12:      #7c7c7c
+xterm*color4:       #6a686c
+xterm*color12:      #535455
 
 ! magenta
-xterm*color5:       #717171
-xterm*color13:      #adadad
+xterm*color5:       #555457
+xterm*color13:      #696969
 
 ! cyan
-xterm*color6:       #8a8a8a
-xterm*color14:      #c0c0c0
+xterm*color6:       #4a4b4c
+xterm*color14:      #7c7c7e
 
 ! white
-xterm*color7:       #b5cabb
-xterm*color15:      #fdfdfd
+xterm*color7:       #292a2b
+xterm*color15:      #999999
