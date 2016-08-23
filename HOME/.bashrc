@@ -20,7 +20,7 @@ c13=$'\e[1;35m'
 c14=$'\e[1;36m'
 c15=$'\e[1;37m'
 
-f0=$'\e[1;30m'
+f0=$'\e[1;31m'
 f1=$'\e[1;37m'
 f2=$'\e[0;37m'
 
@@ -70,14 +70,15 @@ cat << EOF
 EOF
 
 PS1="\[\e[0;34m\]┌─[\[\e[1;36m\u\e[0;34m\]]──[\[\e[1;32m\]${HOSTNAME%%.*}\[\e[0;34m\]]\[\e[1;37m\]: \w $\[\e[0;34m\]\n\[\e[0;34m\]└────■ \[\e[1;36m\]▶▶  \[\e[00;00m\]"
+
 function cdls { cd "$1"; ls --color;}
 alias cd='cdls'
+
 export LS_OPTIONS='--color=auto'
+
 eval "`dircolors`"
 alias ls='ls $LS_OPTIONS'
 
-# i3wm combinaciones de teclas!
-alias i3combinaciones='egrep ^bind ~/.config/i3/config | cut d '\'' '\'' -f 2 | sed '\''s/ /\t/'\'' | column -ts $'\''\t'\'' | pr -2 -w 145 -t | less'
 
 #Colors:
 #..BLACK='\e[0;30m'
